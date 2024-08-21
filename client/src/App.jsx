@@ -87,7 +87,7 @@ const App = () => {
 
       <ul>
         {list.map((msg, index) => (
-          <li>{msg}</li>
+          <li key={index}>{msg}</li>
         ))}
       </ul>
     </Container>
